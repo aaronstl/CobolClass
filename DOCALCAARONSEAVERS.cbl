@@ -16,9 +16,10 @@
        DISPLAY UserPrompt
        ACCEPT FirstNum
        ACCEPT SecondNum
+       COMPUTE CalcResult = FirstNum + SecondNum
+       DISPLAY "Result is = ", CalcResult
        COMPUTE CalcResult = FirstNum * SecondNum
        DISPLAY "Mulitiplication Result is: " CalcResult.
-
 
            goback.
            
