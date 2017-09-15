@@ -21,7 +21,7 @@
 001910       10 CUST-INIT     PIC XX.                                           
 002000       10 CUST-SURNAME  PIC X(09).                                        
 002100    05 CUST-GENDER      PIC X(06).                                        
-002200    05 CUST-PAYMENT     PIC 9(06)V999.                                     
+002200    05 CUST-PAYMENT     PIC 9(06)V9(3).                                     
 002300                                                                          
 002400 01  END-WORKING-STORAGE         PIC X(50)   VALUE                        
 002500      '** DATDEVBL **  END WORKING-STORAGE **'.                           
